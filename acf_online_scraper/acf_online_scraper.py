@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# Author: Victor V. R. Matos (@vvrmatos)
+# Description: This script creates a directory structure for books of the Bible,
+# fetches chapter content from the ACF Bible website, and saves verses as text files.
+# License: CC0 1.0 Universal
+
 from bs4 import BeautifulSoup
 import requests
 
